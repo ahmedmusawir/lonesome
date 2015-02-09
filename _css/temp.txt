@@ -1,0 +1,26 @@
+div
+{
+transition: width 2s;
+-moz-transition: width 2s; /* Firefox 4 */
+-webkit-transition: width 2s; /* Safari and Chrome */
+-o-transition: width 2s; /* Opera */
+}
+
+transform: rotate(360deg) scale(0.591) skew(-7deg) translate(5px);
+-webkit-transform: rotate(360deg) scale(0.591) skew(-7deg) translate(5px);
+-moz-transform: rotate(360deg) scale(0.591) skew(-7deg) translate(5px);
+-o-transform: rotate(360deg) scale(0.591) skew(-7deg) translate(5px);
+-ms-transform: rotate(360deg) scale(0.591) skew(-7deg) translate(5px);
+
+  -webkit-border-radius:41%/50%;
+  -webkit-transform:matrix(-0.58,-0.58,0.73,-0.78,0,0);
+  -webkit-transform-origin:center;
+
+  background:-webkit-gradient(linear, 43% 100%, 44% 21%, from(#34C085), to(#C05C24))
+  
+  
+  
+-webkit-border-top-left-radius:73px;
+-webkit-border-top-right-radius:75px;
+-webkit-border-bottom-left-radius:75px;
+-webkit-border-bottom-right-radius:75px;
